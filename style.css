@@ -1,0 +1,95 @@
+* {
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    background-image: url(image/cover1.jpg);
+    background-size: cover;
+}
+
+.Title h1 {
+    font-size: 50pt;
+    color: rgb(223, 181, 46);
+    text-align: center;
+}
+
+.Title h5 {
+    color: rgb(102, 60, 6);
+    text-align: center;
+}
+
+.imgTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.Title img {
+    width: 62.5rem;
+    height: 31.25rem;
+    border: 20px solid rgba(182, 181, 181, 0.281); 
+}
+
+.Title p {
+    font-size: 2.508rem;
+    color: rgb(243, 197, 72);
+    text-align: center;
+}
+
+.breakfast, .burger {
+    background-color: rgba(220, 220, 220, 0.637);
+    margin: 5.625rem;
+    padding: 0.625rem;
+    align-items: center;
+}
+
+.menu {
+    background-color: rgba(220, 220, 220, 0.637);
+    margin: 90px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-size: 40pt;
+    text-align: center;
+    color: rgb(102, 60, 6);
+}
+
+.wrapper img {
+    padding: 10px;
+    opacity: 0.6;
+}
+
+.wrapper img:hover {
+    opacity: 1;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(102, 60, 6);
+    font-size: 20pt;
+}
+
+.item {
+    display: flex;
+    justify-content: center;    
+    padding: 10px;
+    margin: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    background-color: rgba(34, 139, 34, 0.342);
+    border: 2px solid #545257;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
